@@ -11,8 +11,11 @@ h1 {
     font-size: 6rem;
 }
 
-#title {
+div {
     padding: 5%;
-    background-color: #e6faec;
     border-bottom: 0.5rem solid;
+}
+
+#title {
+    background-color: #e6faec;
 }
