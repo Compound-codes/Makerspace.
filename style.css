@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #fae6e6;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 6rem;
+}
+
+#title {
+    padding: 5%;
+    background-color: #e6faec;
+    border-bottom: 0.5rem solid;
+}
