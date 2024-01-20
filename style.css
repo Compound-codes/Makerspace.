@@ -1,21 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    background-color: #fae6e6;
+    background-color: #545564;
     font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 6rem;
 }
 
-div {
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Merriweather', serif;
+}
+
+#title, #calendar, #reserve, #info, #hours, #plans, #footer, #reviews {
     padding: 5%;
     border-bottom: 0.5rem solid;
 }
 
-#title {
-    background-color: #e6faec;
+#title, #calendar {
+    background-color: #C7CCFF;
 }
+ 
+#reserve {
+    background-color: #C7FFD7;
+}
+
+#reviews {
+    background-color: #bfe1e4;
+}
+#info, #plans {
+    background-color: #FFF3C6;
+}
+
+#hours, #footer {
+    background-color: #FFC7C7;
+}
+
+#reserve {
+    text-align: center;
+}
+
+.col-3 {
+    margin: 4%;
+}
+
+#footer {
+    border-bottom: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.ubad {
+    text-align: center;
+}
+
+.potatoes {
+    width: 50%;
+    height: 50px;
+    font-size: 2rem;
+}
+
+#reviews {
+    text-align: center;
+}
+
+button {
+    border-radius: 5%;
+    border:none;
+}
+/* 
+carousel-button {
+    opacity: 1; */
+
+/* } */
+/* #fae6f2 */
